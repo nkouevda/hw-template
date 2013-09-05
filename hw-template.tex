@@ -1,0 +1,61 @@
+% Nikita Kouevda
+% 2013/09/05
+
+% 8.5 inch by 11 inch article with 10 point font
+\documentclass[letterpaper]{article}
+
+% 1 inch margins
+\usepackage[margin=1in]{geometry}
+
+% Header with name, title, and class; no footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[L]{Name}
+\fancyhead[C]{Title}
+\fancyhead[R]{Class}
+\fancyfoot{}
+
+% Packages for common symbols and environments
+\usepackage{amsmath,amssymb,amsthm}
+
+% No paragraph indent
+\setlength{\parindent}{0in}
+
+% Skip one line
+\newcommand{\br}{\vspace{\baselineskip}}
+
+% Set the vertical separation between items in lists to be one line
+\newcommand{\slisbls}{\setlength{\itemsep}{\baselineskip}}
+
+% Parenthesize list numbering at level 3, e.g. (i)
+\renewcommand{\labelenumiii}{(\roman{enumiii})}
+
+% End formatting; begin document
+\begin{document}
+\begin{enumerate}\slisbls
+\item % 1
+% TODO
+\begin{enumerate}\slisbls
+\item % 1(a)
+% TODO
+\item % 1(b)
+% TODO
+\item % 1(c)
+% TODO
+\end{enumerate}
+\newpage
+\item % 2
+% TODO
+\newpage
+\item % 3
+% TODO
+\begin{enumerate}\slisbls
+\item % 3(a)
+% TODO
+\item % 3(b)
+% TODO
+\item % 3(c)
+% TODO
+\end{enumerate}
+\end{enumerate}
+\end{document}

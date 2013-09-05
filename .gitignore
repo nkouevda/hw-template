@@ -1,0 +1,14 @@
+# Nikita Kouevda
+# 2013/09/05
+
+# Finder
+.DS_Store
+
+# Vim
+*.swp
+
+# Output files
+*.aux
+*.log
+*.out
+*.pdf
