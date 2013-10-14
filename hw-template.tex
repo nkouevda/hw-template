@@ -18,6 +18,9 @@
 % Packages for common symbols and environments
 \usepackage{amsmath,amssymb,amsthm}
 
+% Simplify style declaration for lists
+\usepackage{enumerate}
+
 % No paragraph indent
 \setlength{\parindent}{0in}
 
@@ -27,35 +30,18 @@
 % Set the vertical separation between items in lists to be one line
 \newcommand{\slisbls}{\setlength{\itemsep}{\baselineskip}}
 
-% Parenthesize list numbering at level 3, e.g. (i)
-\renewcommand{\labelenumiii}{(\roman{enumiii})}
-
 % End formatting; begin document
 \begin{document}
-\begin{enumerate}
-\item % 1
-% TODO
-\begin{enumerate}\slisbls
-\item % 1(a)
-% TODO
-\item % 1(b)
-% TODO
-\item % 1(c)
-% TODO
-\end{enumerate}
-\newpage
-\item % 2
+\section*{Problem 1}
 % TODO
 \newpage
-\item % 3
+\section*{Problem 2}
+\begin{enumerate}[(a)]\slisbls
+\item % 2(a)
 % TODO
-\begin{enumerate}\slisbls
-\item % 3(a)
+\item % 2(b)
 % TODO
-\item % 3(b)
+\item % 2(c)
 % TODO
-\item % 3(c)
-% TODO
-\end{enumerate}
 \end{enumerate}
 \end{document}
