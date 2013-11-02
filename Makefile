@@ -21,7 +21,7 @@ all: $(TARGETS)
 	$(PDFLATEX) $(PDFOPTS) $+
 
 cleanaux:
-	rm $(AUX) $(LOG) $(OUT)
+	rm -f $(AUX) $(LOG) $(OUT)
 
 clean: cleanaux
-	rm $(TARGETS)
+	rm -f $(TARGETS)
