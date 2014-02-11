@@ -1,5 +1,5 @@
 % Nikita Kouevda
-% 2013/10/14
+% 2014/02/11
 
 % 8.5 inch by 11 inch article with 10 point font
 \documentclass[letterpaper]{article}
@@ -33,6 +33,9 @@
 % Set the vertical separation between items in lists to be one line
 \setlist*{itemsep=\baselineskip}
 
+% Set the label for the first level of enumerate
+\setlist[enumerate,1]{label=(\alph*)}
+
 % Skip one line
 \newcommand{\br}{\vspace{\baselineskip}}
 
@@ -45,7 +48,7 @@
 % TODO
 \newpage
 \problem % 2
-\begin{enumerate}[label=(\alph*)]
+\begin{enumerate}
 \item % 2(a)
 % TODO
 \item % 2(b)
