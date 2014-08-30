@@ -1,13 +1,7 @@
 # Nikita Kouevda
-# 2013/09/05
+# 2014/08/30
 
-# Finder
-.DS_Store
-
-# Vim
-*.swp
-
-# Output files
+# Output
 *.aux
 *.log
 *.out
