@@ -1,6 +1,3 @@
-<!-- Nikita Kouevda -->
-<!-- 2013/09/05 -->
-
 # hw-template
 
 A LaTeX template for homework assignments.

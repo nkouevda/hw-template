@@ -1,6 +1,3 @@
-# Nikita Kouevda
-# 2013/11/01
-
 # Compiler and options
 PDFLATEX := pdflatex
 PDFOPTS := -halt-on-error
