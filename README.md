@@ -18,4 +18,4 @@ To remove all generated files including `.pdf` files:
 
 ## License
 
-Licensed under the [MIT License](http://www.opensource.org/licenses/MIT).
+[MIT License](LICENSE.txt)
